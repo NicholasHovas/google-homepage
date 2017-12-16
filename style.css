@@ -2,11 +2,21 @@ header {
 	top: 0;
 	position: fixed;
 	width: 100%;
+	color: #222;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	right: 0;
+	background: lightgrey;
 }
 
 li {
 	display: inline;
-	padding: 10px;
+	padding-right: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .left {
@@ -15,4 +25,49 @@ li {
 
 .right {
 	float: right;
+}
+
+.signIn {
+	background-color: #0000ff;
+	color: #fff;
+	padding: 5px;
+	border-radius: 2px;
+	border: solid;
+	border-color: #0000ff;
+}
+
+.grid {
+	opacity: 0.5;
+}
+
+#logo {
+	display: block;
+    margin: auto;
+    top: 250px;
+    position: relative;
+}
+
+#search {
+	display: block;
+	position: relative;
+	top: 300px;
+	margin: auto;
+	padding: 10px 150px;
+	box-shadow: 2px 4px 5px;
+}
+
+#searchButtons {
+	display: block;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	top: 350px;
+}
+
+.searchButton {
+	background-color: lightgrey;
+	border: solid;
+	border-color: lightgrey;
+	border-radius: 2px;
+	padding: 5px;
 }
